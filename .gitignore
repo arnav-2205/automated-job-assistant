@@ -1,0 +1,16 @@
+# Allow-list only: everything else (resume, profile.yaml, applications, screenshots,
+# per-application scripts with personal details, scraped job data) stays local.
+*
+!.gitignore
+!README.md
+!profile.example.yaml
+!scripts/
+!scripts/*.py
+!work/
+!work/server.py
+!work/run.sh
+!work/step.py
+!work/ats.py
+!work/ats2.py
+!work/search_li.py
+!work/search_remote.py

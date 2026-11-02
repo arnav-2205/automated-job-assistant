@@ -1,0 +1,41 @@
+# Copy to ./profile.yaml (or ~/.job-apply/profile.yaml) and fill in.
+# Anything left blank will be left blank on forms and flagged for you.
+
+resume_path: ~/Documents/resume.pdf
+cover_letter_path:          # optional
+
+personal:
+  full_name:
+  email:
+  phone:                    # include country code, e.g. +91XXXXXXXXXX
+  current_city:
+  current_country:
+  linkedin_url:
+  github_url:
+  portfolio_url:
+
+work:
+  current_company:
+  current_title:
+  total_experience_years:
+  notice_period:            # e.g. "30 days" or "Immediate"
+  current_ctc:
+  expected_ctc:
+  willing_to_relocate:      # yes / no
+  preferred_locations: []
+  work_mode_preference:     # remote / hybrid / onsite
+
+legal:
+  work_authorization:       # e.g. "Authorized to work in India"
+  requires_visa_sponsorship:  # yes / no
+
+# Standard answers to recurring questions: key is a keyword, value is your answer
+custom_answers:
+  # "reason for leaving": "Looking for larger scope and ownership."
+  # "how did you hear about us": "Job portal"
+
+search_defaults:
+  target_titles: []
+  excluded_companies: []
+  must_have_skills: []
+  deal_breakers: []         # e.g. ["on-site only", "unpaid", "contract < 6 months"]
